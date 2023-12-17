@@ -1,0 +1,40 @@
+.menu{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 50;
+    background-color: #fff;
+}
+.close{
+    text-align: end;
+    padding: 20px 20px 10px 10px;
+}
+.menu-list>ul{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    padding: 20px;
+    list-style: none;
+    flex-direction: column;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.822);
+}
+.menu-list>ul>li{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.account{
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.account:hover{
+    background-color: rgba(80, 80, 87, 0.178);
+}
+.menu-list>ul>li:hover{
+    background-color: rgba(80, 80, 87, 0.178);
+}

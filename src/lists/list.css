@@ -1,0 +1,148 @@
+.list{
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    transition: 2s ease;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.39) 0px 54px 55px, rgba(0, 0, 0, 0.315) 0px -12px 30px, rgba(0, 0, 0, 0.322) 0px 4px 6px, rgba(0, 0, 0, 0.322) 0px 12px 13px, rgba(0, 0, 0, 0.295) 0px -3px 5px;
+}
+
+.list-left{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex: 2;
+    background-color: white;
+    border-right: 2px solid #48494d59;
+    padding-left: 150px;
+}
+.list-main{
+    text-align: center;
+}
+.list-main>img{
+    height: 110px;
+    width: 210px;
+}
+.list-main>h3{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    color: #2d2e31;
+}
+.list-main>p{
+    color: #171a20;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.list-right{
+    flex: 1;
+    background-color: white;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+}
+.list-right-main{
+    flex: 1;
+    background-color: white;
+    padding-left: 30px;
+}
+.list-right-main>p{
+    color: #171a20;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 2s ease;
+}
+.list-right>p{
+    color: #1f2229e0;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 2s ease;
+}
+.list-right-main>p:hover{
+    text-decoration: underline 2px;
+}
+.list-right>p:hover{
+    text-decoration: underline 2px;
+}
+
+@media screen and (max-width:1200px){
+    .list{
+        display: none;
+    }
+}
+
+.disone>span{
+    font-size: 14px;
+    text-align: start;
+}
+
+.disone{
+    text-align: start;
+}
+
+.disone>p{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: start;
+    cursor: pointer;
+    color: #171a20e0;
+}
+.disone>p:hover{
+    text-decoration: underline;
+}
+
+.discover{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    position: relative;
+    z-index: 5;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    transition: 2s ease;
+    border-radius: 10px;
+    gap: 80px;
+    box-shadow: rgba(0, 0, 0, 0.39) 0px 54px 55px, rgba(0, 0, 0, 0.315) 0px -12px 30px, rgba(0, 0, 0, 0.322) 0px 4px 6px, rgba(0, 0, 0, 0.322) 0px 12px 13px, rgba(0, 0, 0, 0.295) 0px -3px 5px;
+}
+
+.shop-item{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    position: relative;
+    z-index: 5;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    transition: 2s ease;
+    border-radius: 10px;
+    gap: 40px;
+    box-shadow: rgba(0, 0, 0, 0.39) 0px 54px 55px, rgba(0, 0, 0, 0.315) 0px -12px 30px, rgba(0, 0, 0, 0.322) 0px 4px 6px, rgba(0, 0, 0, 0.322) 0px 12px 13px, rgba(0, 0, 0, 0.295) 0px -3px 5px;
+}
+
+.shop-img>img{
+    height: 110px;
+    width: 210px;
+}
+
+.shop-img>p{
+    font-size: 17px;
+    font-weight: bold;
+    color: #171a20;
+}

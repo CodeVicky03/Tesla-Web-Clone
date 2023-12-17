@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Hedvig+Letters+Sans&family=Poppins&family=Roboto&display=swap');
+
+.offer-bar {
+    text-align: center;
+    color: #fff;
+    background: rgb(6, 6, 6);
+    padding: 0.1px;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+.offer-bar-h1{
+    font-size: 18px;
+    letter-spacing: 0.4px;
+}
+.offer-bar-span{
+    font-size: 14px;
+    font-weight: 550;
+    letter-spacing: 0.4px;
+    padding-left: 20px;
+}
+
+.offer-bar-spantwo{
+    font-size: 14px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+@media screen and (max-width: 767px) {
+    .offer-bar-h1{
+        font-size: 12px;
+    }
+    .offer-bar-span{
+        font-size: 8px;
+        letter-spacing: 0px;
+    }
+    .offer-bar-spantwo{
+        font-size: 8px;
+        letter-spacing: 0px;
+    }
+}
